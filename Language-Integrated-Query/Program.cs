@@ -1,4 +1,4 @@
-﻿itnamespace Language_Integrated_Query;
+﻿namespace Language_Integrated_Query;
 
 class Program
 {
