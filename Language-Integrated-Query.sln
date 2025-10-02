@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Language-Integrated-Query", "Language-Integrated-Query\Language-Integrated-Query.csproj", "{83A22907-F81A-47B5-ABD6-080D31A6EBF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83A22907-F81A-47B5-ABD6-080D31A6EBF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A22907-F81A-47B5-ABD6-080D31A6EBF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A22907-F81A-47B5-ABD6-080D31A6EBF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A22907-F81A-47B5-ABD6-080D31A6EBF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
