@@ -16,14 +16,14 @@ public class ProjectionOperators
             new Person("이명자", 40, new[] { "010", "9872", "1235" }),
         };
 
-        var Names = people.Select(n => n.Name);
-        Console.WriteLine(string.Join(", ", Names));   // 이기안, 홍길동, 이명자
+        var names = people.Select(n => n.Name);
+        Console.WriteLine(string.Join(", ", names));   // 이기안, 홍길동, 이명자
 
-        var Ages = people.Select(n => n.Age);
-        Console.WriteLine(string.Join(", ", Ages));   // 26, 18, 40
+        var ages = people.Select(n => n.Age);
+        Console.WriteLine(string.Join(", ", ages));   // 26, 18, 40
 
-        var PhoneNumbers = people.SelectMany(n => n.PhoneNumber);
-        Console.WriteLine(string.Join(", ", PhoneNumbers));   // 010, 1234, 2345, 010, 3234, 5345, 010, 9872, 1235
+        var phoneNumbers = people.SelectMany(n => n.PhoneNumber);
+        Console.WriteLine(string.Join(", ", phoneNumbers));   // 010, 1234, 2345, 010, 3234, 5345, 010, 9872, 1235
     }
 }
 

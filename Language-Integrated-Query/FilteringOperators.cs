@@ -2,7 +2,7 @@
 
 public class FilteringOperators
 {
-    private static readonly int[] Array = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+    private static readonly int[] Array = new[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
     private static readonly object[] MixedArray = new object[] { 1, 'a', 2, 'b', 3, 'c' };
     
     public static void Run()
