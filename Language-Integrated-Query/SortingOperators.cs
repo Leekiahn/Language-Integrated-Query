@@ -1,6 +1,6 @@
 ﻿namespace Language_Integrated_Query;
 
-public class AggregationOperators
+public class SortingOperators
 {
     public static void Run()
     {
