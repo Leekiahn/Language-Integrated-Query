@@ -22,7 +22,13 @@ public class ProjectionOperators
         var ages = people.Select(n => n.Age);
         Console.WriteLine(string.Join(", ", ages));   // 26, 18, 40
 
-        var phoneNumbers = people.SelectMany(n => n.PhoneNumber);
+        // var phoneNumbers = people.SelectMany(n => n.PhoneNumber);
+        var phoneNumbers =
+            from numbers in people
+            from num in numbers.PhoneNumber
+            select num;
+            
+            
         Console.WriteLine(string.Join(", ", phoneNumbers));   // 010, 1234, 2345, 010, 3234, 5345, 010, 9872, 1235
     }
 }

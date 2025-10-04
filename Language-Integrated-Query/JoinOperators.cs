@@ -24,17 +24,28 @@ public class JoinOperators
         };
         
         // 내부 조인
-        var studentScoreJoin = students.Join(
-            studentScores, // 조인에 사용할 두 번째 컬렉션
-            student => student.Name, // 첫 번째 컬렉션에서 조인에 사용할 키를 선택하는 람다식
-            subject => subject.Name, // 두 번째 컬렉션에서 조인에 사용할 키를 선택하는 람다식
-            (student, subject) => new
+        // var studentScoreJoin = students.Join(
+        //     studentScores, // 조인에 사용할 두 번째 컬렉션
+        //     student => student.Name, // 첫 번째 컬렉션에서 조인에 사용할 키를 선택하는 람다식
+        //     subject => subject.Name, // 두 번째 컬렉션에서 조인에 사용할 키를 선택하는 람다식
+        //     (student, subject) => new
+        //     {
+        //         Name = student.Name,
+        //         Score = student.Score,
+        //         Subject = subject.Subject
+        //     }
+        // );
+
+        var studentScoreJoin =
+            from student in students
+            join score in studentScores
+                on student.Name equals score.Name
+            select new
             {
                 Name = student.Name,
                 Score = student.Score,
-                Subject = subject.Subject
-            }
-        );
+                Subject = score.Subject
+            };
 
         // 그룹 조인
         foreach (var item in studentScoreJoin)
@@ -42,17 +53,28 @@ public class JoinOperators
             Console.WriteLine($"이름: {item.Name}, 점수: {item.Score}, 과목: {item.Subject}");
         }
 
-        var studentScoreGroupJoin = students.GroupJoin(
-            studentScores, // 조인에 사용할 두 번째 컬렉션
-            student => student.Name, // 첫 번째 컬렉션에서 조인에 사용할 키를 선택하는 람다식
-            subject => subject.Name, // 두 번째 컬렉션에서 조인에 사용할 키를 선택하는 람다식
-            (student, subject) => new
+        // var studentScoreGroupJoin = students.GroupJoin(
+        //     studentScores, // 조인에 사용할 두 번째 컬렉션
+        //     student => student.Name, // 첫 번째 컬렉션에서 조인에 사용할 키를 선택하는 람다식
+        //     subject => subject.Name, // 두 번째 컬렉션에서 조인에 사용할 키를 선택하는 람다식
+        //     (student, subject) => new
+        //     {
+        //         Name = student.Name,
+        //         Score = student.Score,
+        //         Subject = subject.Select(n => n.Subject)
+        //     }
+        // );
+
+        var studentScoreGroupJoin =
+            from student in students
+            join score in studentScores
+                on student.Name equals score.Name into scoreGroup
+            select new
             {
                 Name = student.Name,
                 Score = student.Score,
-                Subject = subject.Select(n => n.Subject)
-            }
-        );
+                Subject = scoreGroup.Select(n => n.Subject)
+            };
         
         foreach (var item in studentScoreGroupJoin)
         {
