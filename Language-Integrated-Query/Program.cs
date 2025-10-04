@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        JoinOperators.Run();
+        ElementOperators.Run();
     }
 }
 
