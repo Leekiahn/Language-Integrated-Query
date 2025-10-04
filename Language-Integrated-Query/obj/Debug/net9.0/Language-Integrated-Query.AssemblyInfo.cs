@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Language-Integrated-Query")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a196a25f6f22749defee57339d4949b4a729399d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b510bd05ecb4c68474c5c4caab32d4b857059ebb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Language-Integrated-Query")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Language-Integrated-Query")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

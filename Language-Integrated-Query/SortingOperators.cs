@@ -32,8 +32,6 @@ public class SortingOperators
 
         var reverse = ascendingSort2.Reverse();
         Console.WriteLine(string.Join(", ", reverse));
-
-        
     }
 }
 
