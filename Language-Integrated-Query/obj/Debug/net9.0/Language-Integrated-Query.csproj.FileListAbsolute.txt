@@ -1,0 +1,15 @@
+D:\Phikozz\Projects\Language-Integrated-Query\Language-Integrated-Query\bin\Debug\net9.0\Language-Integrated-Query.exe
+D:\Phikozz\Projects\Language-Integrated-Query\Language-Integrated-Query\bin\Debug\net9.0\Language-Integrated-Query.deps.json
+D:\Phikozz\Projects\Language-Integrated-Query\Language-Integrated-Query\bin\Debug\net9.0\Language-Integrated-Query.runtimeconfig.json
+D:\Phikozz\Projects\Language-Integrated-Query\Language-Integrated-Query\bin\Debug\net9.0\Language-Integrated-Query.dll
+D:\Phikozz\Projects\Language-Integrated-Query\Language-Integrated-Query\bin\Debug\net9.0\Language-Integrated-Query.pdb
+D:\Phikozz\Projects\Language-Integrated-Query\Language-Integrated-Query\obj\Debug\net9.0\Language-Integrated-Query.GeneratedMSBuildEditorConfig.editorconfig
+D:\Phikozz\Projects\Language-Integrated-Query\Language-Integrated-Query\obj\Debug\net9.0\Language-Integrated-Query.AssemblyInfoInputs.cache
+D:\Phikozz\Projects\Language-Integrated-Query\Language-Integrated-Query\obj\Debug\net9.0\Language-Integrated-Query.AssemblyInfo.cs
+D:\Phikozz\Projects\Language-Integrated-Query\Language-Integrated-Query\obj\Debug\net9.0\Language-Integrated-Query.csproj.CoreCompileInputs.cache
+D:\Phikozz\Projects\Language-Integrated-Query\Language-Integrated-Query\obj\Debug\net9.0\Language-Integrated-Query.sourcelink.json
+D:\Phikozz\Projects\Language-Integrated-Query\Language-Integrated-Query\obj\Debug\net9.0\Language-Integrated-Query.dll
+D:\Phikozz\Projects\Language-Integrated-Query\Language-Integrated-Query\obj\Debug\net9.0\refint\Language-Integrated-Query.dll
+D:\Phikozz\Projects\Language-Integrated-Query\Language-Integrated-Query\obj\Debug\net9.0\Language-Integrated-Query.pdb
+D:\Phikozz\Projects\Language-Integrated-Query\Language-Integrated-Query\obj\Debug\net9.0\Language-Integrated-Query.genruntimeconfig.cache
+D:\Phikozz\Projects\Language-Integrated-Query\Language-Integrated-Query\obj\Debug\net9.0\ref\Language-Integrated-Query.dll
